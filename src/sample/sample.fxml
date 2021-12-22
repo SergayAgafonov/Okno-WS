@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="195.0" layoutY="64.0" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: rgb(118,227,131);" />
+      <Label layoutX="14.0" layoutY="64.0" text="Введите логин:">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="123.0" text="Введите пароль:">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="14.0" text="Медицинская лаборатория № 20 г. Санкт-Петербурга">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="157.0" fitWidth="157.0" layoutX="375.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:logo.png" />
+         </image>
+      </ImageView>
+      <PasswordField layoutX="194.0" layoutY="123.0" prefHeight="36.0" prefWidth="166.0" style="-fx-background-color: rgb(118,227,131);" />
+      <Button layoutX="196.0" layoutY="184.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="118.0" style="-fx-background-color: rgb(73,140,81);" text="Войти">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="85.0" fitWidth="137.0" layoutX="378.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../logo.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>
